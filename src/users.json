@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "user": "Elon Reeve Musk",
+        "tweets": 777,
+        "followers": 100500,
+        "avatar": "https://api.multiavatar.com/Elon.png"
+    },
+    {
+        "id": 2,
+        "user": "Ruby Hayes",
+        "tweets": 765,
+        "followers": 93400,
+        "avatar": "https://api.multiavatar.com/ruby.png"
+    },
+    {
+        "id": 3,
+        "user": "Max Grayson",
+        "tweets": 621,
+        "followers": 112500,
+        "avatar": "https://api.multiavatar.com/Max.png"
+    },
+    {
+        "id": 4,
+        "user": "Jade Parker",
+        "tweets": 578,
+        "followers": 87600,
+        "avatar": "https://api.multiavatar.com/Parker.png"
+    },
+    {
+        "id": 5,
+        "user": "Jeffrey Preston Bezos",
+        "tweets": 567,
+        "followers": 120300,
+        "avatar": "https://api.multiavatar.com/Jeffrey.png"
+    },
+    {
+        "id": 6,
+        "user": "Sophie Garcia",
+        "tweets": 432,
+        "followers": 102500,
+        "avatar": "https://api.multiavatar.com/sophie.png"
+    }
+]
