@@ -1,4 +1,3 @@
-import { useRef } from "react";
 import PropTypes from "prop-types";
 
 import {
@@ -11,7 +10,6 @@ import {
 } from "./UserItem.styled";
 
 export const UserItem = ({ tweetData, isFollowing, toggleFollowState }) => {
-  const followBtnRef = useRef();
   if (!tweetData) return;
 
   const { id, user, tweets, followers, avatar } = tweetData;
@@ -33,12 +31,8 @@ export const UserItem = ({ tweetData, isFollowing, toggleFollowState }) => {
         <StatItem>{getFollowersValue(followers)} Followers</StatItem>
       </StatList>
       <FollowButton
-        ref={followBtnRef}
-        onClick={() => {
-          toggleFollowState(id);
-          followBtnRef.current.blur();
-        }}
-        isFollowing={isFollowing}
+        onClick={() => toggleFollowState(id)}
+        style={{ backgroundColor: isFollowing ? "#5CD3A8" : "#EBD8FF" }}
       >
         {isFollowing ? "Following" : "Follow"}
       </FollowButton>

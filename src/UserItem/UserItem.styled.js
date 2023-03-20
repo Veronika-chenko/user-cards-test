@@ -95,7 +95,6 @@ export const FollowButton = styled.button`
     text-transform: uppercase;
 
     color: #373737;
-    background-color: ${p => p.isFollowing ? "#5CD3A8" : "#EBD8FF" };
     border: none;
     border-radius: 10px;
     box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.25);
