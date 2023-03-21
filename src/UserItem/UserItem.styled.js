@@ -1,15 +1,16 @@
 import styled from "styled-components";
 
-import MessagesBg from '../img/messages.svg';
+import Logo from "../img/logo.svg";
+import MessagesBg from "../img/messages.svg";
 
 export const UserCard = styled.li`
     position: relative;
     width: 380px;
     padding: 214px 32px 32px;
     
-    background: url(${MessagesBg}), linear-gradient(114.99deg, #471CA9 -0.99%, #5736A3 54.28%, #4B2A99 78.99%);
+    background: url(${Logo}), url(${MessagesBg}), linear-gradient(114.99deg, #471CA9 -0.99%, #5736A3 54.28%, #4B2A99 78.99%);
     background-repeat: no-repeat;
-    background-position: top 28px center, top 0 left 0;
+    background-position: top 20px left 20px, top 28px center, top 0 left 0;
     border-radius: 20px;
     box-shadow: -2.5777px 6.87386px 20.6216px rgba(0, 0, 0, 0.23);
     
@@ -89,7 +90,7 @@ export const FollowButton = styled.button`
     padding: 14px 28px;
     cursor: pointer;
 
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-size: 18px;
     font-weight: 600;
     text-transform: uppercase;
@@ -98,11 +99,11 @@ export const FollowButton = styled.button`
     border: none;
     border-radius: 10px;
     box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.25);
+    background-color: ${p => p.isFollowing ? "#5CD3A8" : "#EBD8FF"};
     
     transition: background-color 250ms linear;
 
-    &:hover,
-    &:focus {
+    &:hover {
         background-color: #5CD3A8;
     }
 `

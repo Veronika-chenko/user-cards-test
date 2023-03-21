@@ -32,7 +32,7 @@ export const UserItem = ({ tweetData, isFollowing, toggleFollowState }) => {
       </StatList>
       <FollowButton
         onClick={() => toggleFollowState(id)}
-        style={{ backgroundColor: isFollowing ? "#5CD3A8" : "#EBD8FF" }}
+        isFollowing={isFollowing}
       >
         {isFollowing ? "Following" : "Follow"}
       </FollowButton>
