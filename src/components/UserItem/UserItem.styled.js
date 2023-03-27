@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
-import Logo from "../img/logo.svg";
-import MessagesBg from "../img/messages.svg";
+import Logo from "../../img/logo.svg";
+import MessagesBg from "../../img/messages.svg";
 
 export const UserCard = styled.li`
     position: relative;

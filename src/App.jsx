@@ -1,6 +1,6 @@
 import users from "./db/users.json";
 import { useLocalStorage } from "./hooks/useLocalStorage";
-import { UserItem } from "./UserItem/UserItem";
+import { UserItem } from "./components/UserItem/UserItem";
 
 import { Container, UserList } from "./App.styled";
 
