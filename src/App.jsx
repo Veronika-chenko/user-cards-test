@@ -1,4 +1,4 @@
-import users from "./users.json";
+import users from "./db/users.json";
 import { useLocalStorage } from "./hooks/useLocalStorage";
 import { UserItem } from "./UserItem/UserItem";
 
